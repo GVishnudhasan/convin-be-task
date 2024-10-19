@@ -171,5 +171,3 @@ curl -X GET http://localhost:8080/api/expenses/balance-sheet \
 ---
 
 Replace `<JWT_TOKEN>`, `<USER_ID>`, and other placeholders with actual values as needed. The `balance-sheet.csv` will be saved in your current directory after downloading.
-
-Let me know if you'd like more details or clarifications on any of the requests!
