@@ -1,6 +1,6 @@
 # Daily Expenses Sharing Application
 
-A backend service designed to manage and share daily expenses among participants, supporting equal, exact, and percentage-based splits. Built with Node.js, Express.js, and MongoDB, the application provides user and expense management functionality, input validation, and downloadable balance sheets.
+A backend service designed to manage and share daily expenses among participants, supporting equal, exact, and percentage-based splits. The application provides user and expense management functionality, input validation, and downloadable balance sheets.
 
 ## Objective
 
@@ -12,7 +12,7 @@ This application allows users to add expenses and split them in three different 
 - **Expense Management**: 
   - Split expenses using three methods: Equal, Exact, and Percentage.
   - Add, retrieve, and view individual or overall expenses.
-  - Ensure that percentages in the Percentage split method add up to 100%.
+  - Ensure that percentages in the Percentage split method add up to 100% and Exact split method adds upto total amount.
 - **Balance Sheet**: 
   - Show individual expenses for each user.
   - Show overall expenses across all users.
